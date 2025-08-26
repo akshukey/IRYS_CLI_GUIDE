@@ -82,7 +82,7 @@ irys
 >Now, You have to deposit testnet tokens (any chain) 
 
 ```
-irys fund 100000000 \
+irys fund 1000000 \
   -n devnet \
   -t ethereum \
   -w Private_Key \
