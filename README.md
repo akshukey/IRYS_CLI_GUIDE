@@ -71,7 +71,7 @@ irys
 | `-n`           | The network to check, `mainnet` or `devnet`, defaults to `mainnet`.         |
 | `-t`           | The [token](https://docs.irys.xyz/build/d/features/supported-tokens) to use when funding.                                              |
 | `-w`           | Your private key. (without 0x)                                                           |
-| `--tags`       | Tags to include, format `<file_name> <file_formate>`.                                   |
+| `--tags`       | Tags to include, format `<file_name> <file_format>`.                                   |
 | `--provider-url` | RPC URL to use.   [FROM_HERE](https://chainlist.org/)                                                        |
 
 
@@ -81,7 +81,6 @@ irys
 
 >Now, You have to deposit testnet tokens (any chain) 
 
-
 ```
 irys fund 100000000 \
   -n devnet \
@@ -90,6 +89,7 @@ irys fund 100000000 \
   --provider-url RPC_URL
 ```
 
+>Take Faucet: [Ethereum_Sepolia_Faucet](https://sepolia-faucet.pk910.de/) :: If u have to do in another chain then take faucet of that network:
 
 >The fund amount is in `wei`
 
@@ -125,7 +125,7 @@ irys upload FILE_NAME \
   -n devnet \
   -t ethereum \
   -w PRIVATE_KEY \
-  --tags FILE_NAME FILE_FORMATE \
+  --tags FILE_NAME FILE_FORMAT \
   --provider-url RPC_URL
 ```
 
@@ -134,7 +134,7 @@ irys upload FILE_NAME \
 
 >Replace `PRIVATE_KEY` with your Credential
 
->Replace `FILE_NAME` & `FILE_FORMATE` (JPG,PNG)
+>Replace `FILE_NAME` & `FILE_FORMAT` (JPG,PNG)
 
 >Replace `RPC_URL` with your selected Network
 
